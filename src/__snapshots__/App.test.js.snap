@@ -17,7 +17,7 @@ exports[`app has a label and checkbox 1`] = `
     </h2>
   </div>
   <div
-    className="form"
+    className="content-body"
   >
     <div
       style={
