@@ -1,9 +1,19 @@
-import React, {PropTypes} from "react";
+import React from "react";
+import PropTypes from 'prop-types';
 
-const Label = ({value}) => {
+const Label = (props) => {
 
     return (
-        <div style={{color: 'white'}}><h3>{value}</h3></div>
+        <div style={{
+            color: 'white',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            alignContent: 'space-between'
+        }}>
+            <h3>{props.value}</h3>
+            { props.children }
+        </div>
     )
 };
 

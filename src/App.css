@@ -26,3 +26,9 @@
         transform: rotate(360deg);
     }
 }
+
+.content-body {
+    background-color: cadetblue;
+    flex: 1;
+    align-items: center;
+}

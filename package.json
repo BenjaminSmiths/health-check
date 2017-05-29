@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-fontawesome": "^1.6.1"
   },
   "devDependencies": {
-    "react-scripts": "1.0.6"
+    "enzyme": "^2.8.2",
+    "react-scripts": "1.0.6",
+    "react-test-renderer": "^15.5.4"
   },
   "scripts": {
     "start": "react-scripts start",

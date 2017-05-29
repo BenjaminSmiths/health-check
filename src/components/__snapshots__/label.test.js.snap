@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lable can have children 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "space-between",
+      "alignItems": "center",
+      "color": "white",
+      "display": "flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <h3>
+    this is required
+  </h3>
+  <div
+    id="child"
+  >
+    hello world
+  </div>
+</div>
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app has a label and checkbox 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h2>
+      Welcome to The Health Check
+    </h2>
+  </div>
+  <div
+    className="form"
+  >
+    <div
+      style={
+        Object {
+          "alignContent": "space-between",
+          "alignItems": "center",
+          "color": "white",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <h3>
+        check the box to win
+      </h3>
+      <div
+        onClick={[Function]}
+        style={
+          Object {
+            "borderRadius": 2,
+            "borderStyle": "solid",
+            "borderWidth": 2,
+            "height": 20,
+            "margin": 5,
+            "width": 20,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
